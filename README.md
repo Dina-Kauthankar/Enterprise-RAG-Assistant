@@ -248,9 +248,6 @@ Contributions, feedback, and feature requests are very welcome!
 
 ---
 
-## 📄 License
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
 <div align="center">
   <sub>Engineered with precision for grounded enterprise intelligence. ⭐ Star this repo if you find it helpful!</sub>
