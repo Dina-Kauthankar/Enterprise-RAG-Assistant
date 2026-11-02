@@ -1,0 +1,118 @@
+# ==============================================================================
+# SECRETS & ENVIRONMENT VARIABLES (CRITICAL - NEVER EXPOSE TO PUBLIC REPOS)
+# ==============================================================================
+.env
+.env.*
+!.env.example
+*.env
+backend/.env
+backend/.env.*
+!backend/.env.example
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# API keys, tokens, and certificates
+*.pem
+*.key
+*.cert
+*.crt
+*.pfx
+secrets/
+credentials.json
+
+# ==============================================================================
+# UPLOADS & USER DATA (PROPRIETARY DOCUMENTS & EMBEDDINGS)
+# ==============================================================================
+uploads/
+backend/uploads/
+*.pdf
+*.docx
+*.txt
+!requirements.txt
+data/
+storage/
+
+# ==============================================================================
+# PYTHON & BACKEND RUNTIME
+# ==============================================================================
+# Virtual environments
+venv/
+env/
+ENV/
+backend/venv/
+backend/env/
+.venv/
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+backend/**/__pycache__/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# ==============================================================================
+# NODE.JS & FRONTEND RUNTIME
+# ==============================================================================
+# Dependencies
+node_modules/
+frontend/node_modules/
+.pnp
+.pnp.js
+
+# Next.js build output & cache
+frontend/.next/
+frontend/out/
+.next/
+out/
+
+# Package logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Next.js telemetry & lock files
+.next/cache/
+frontend/.package-lock.json
+
+# ==============================================================================
+# DATABASES & LOCAL PERSISTENCE
+# ==============================================================================
+*.sqlite
+*.sqlite3
+*.db
+pgdata/
+postgres_data/
+
+# ==============================================================================
+# IDE & OPERATING SYSTEM JUNK
+# ==============================================================================
+# Editors
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+

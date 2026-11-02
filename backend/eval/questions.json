@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "question": "What is the standard annual paid time off policy?",
+    "expected_doc": "Employee_Handbook.pdf",
+    "expected_page": 12,
+    "allowed_role": "employee"
+  },
+  {
+    "id": 2,
+    "question": "How many days in advance must leave requests be submitted?",
+    "expected_doc": "Employee_Handbook.pdf",
+    "expected_page": 13,
+    "allowed_role": "employee"
+  },
+  {
+    "id": 3,
+    "question": "What is the executive bonus multiplier structure?",
+    "expected_doc": "Executive_Compensation_Plan.pdf",
+    "expected_page": 4,
+    "allowed_role": "admin"
+  },
+  {
+    "id": 4,
+    "question": "What is the policy for reporting workplace health and safety hazards?",
+    "expected_doc": "Health_and_Safety_Guidelines.pdf",
+    "expected_page": 5,
+    "allowed_role": "employee"
+  },
+  {
+    "id": 5,
+    "question": "What are the remote work equipment stipend guidelines?",
+    "expected_doc": "Remote_Work_Policy.pdf",
+    "expected_page": 2,
+    "allowed_role": "employee"
+  }
+]
+
