@@ -244,7 +244,7 @@ Contributions, feedback, and feature requests are very welcome!
 
 **Dina Kauthankar**
 - GitHub: [@Dina-Kauthankar](https://github.com/Dina-Kauthankar)
-- Project: [rag-assistant](https://github.com/Dina-Kauthankar/rag-assistant)
+- Project: [Enterprise-RAG-Assistant](https://github.com/Dina-Kauthankar/Enterprise-RAG-Assistant)
 
 ---
 
